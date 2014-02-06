@@ -1,0 +1,16 @@
+block head
+  script(type='text/javascript',src='http://d3js.org/d3.v3.min.js',charset="utf-8")
+  link(rel='stylesheet',href='/stylesheets/d3_test.css')
+
+block content
+  div.pageTle
+    | SVG Test Chart
+  div
+    | Author: #{author}   
+  each txt in texts
+      div
+        | Fact #{txt.key}: #{txt.value}
+  br
+  div#chart
+
+  script(type='text/javascript',src='/javascripts/d3_test.js')

@@ -1,0 +1,39 @@
+  svg {
+    border: 1px solid #990000;
+    background: #fff3f3;
+  }
+  .title {
+    fill: #560000;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    text-anchor: middle;
+    font-size: 24px;
+  }
+  
+  .axis .domain, .axis .tick {
+    stroke: #560000;
+    fill: none;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  }
+  
+  .bar_alert {
+    fill: #FA5A6A;
+    stroke: #fff3f3;
+  }
+  
+  .bar_normal {
+    fill: #560000;
+    stroke: #fff3f3;
+  }
+  
+  .description {
+    color: 'black';
+  }
+  
+  .pageTle {
+    fill: #230000;
+    width:480;
+    margin:0
+    auto;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 36px;
+  }
