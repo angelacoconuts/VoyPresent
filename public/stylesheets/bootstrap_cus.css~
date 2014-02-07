@@ -1,0 +1,9 @@
+.navbar-inner {
+    background-color: white;
+}
+#searchIcon {
+    background-color: white;
+}
+.nav, p, li, a, label, input, button, select, textarea {
+    font-family: Georgia, serif;
+}

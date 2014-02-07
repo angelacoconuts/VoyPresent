@@ -14,3 +14,11 @@ exports.index = function(req, res){
 	     }
 	    );
 };
+
+exports.angular = function(req, res){
+  res.render('angular', { title: "Angular test page"} );
+};
+
+exports.bootstrap = function(req, res){
+  res.render('bootstrap', { title: "Angular test page"} );
+};

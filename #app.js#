@@ -5,6 +5,7 @@
 
 var express = require('express')
   , routes = require('./routes')
+  , user = require('./routes')
   , http = require('http')
   , path = require('path');
 
@@ -28,7 +29,6 @@ if ('development' == app.get('env')) {
 
 app.get('/', routes.index);
 app.get('/angular', routes.angular);
-app.get('/bootstrap', routes.bootstrap);
 app.get('/angular/:phoneId', function(req,res,next){
     res.send(req.params.phoneId);
 });
