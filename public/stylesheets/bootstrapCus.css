@@ -1,0 +1,14 @@
+.navbar-inner {
+    background-color: white;
+    height: 80px;
+    padding: 20px 10px 10px 10px;
+}
+#searchIcon {
+    background-color: white;
+}
+p, li, a, label, input, button, select, textarea {
+    font-family: Georgia, serif;
+}
+#searchBox {
+    width: 100%;
+}

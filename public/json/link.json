@@ -1,0 +1,19 @@
+{
+"nodes" : [
+    {"name": "China", "img": "/images/China.jpg"},
+    {"name": "India", "img": "/images/India.jpg"},
+    {"name": "Japan", "img": "/images/Japan.jpg"},
+    {"name": "Beijing", "img": "/images/Beijing.jpg"},
+    {"name": "Shanghai", "img": "/images/Shanghai.jpg"},
+    {"name": "Guangzhou", "img": "/images/Guangzhou.jpg"}
+],
+    
+
+"links" : [
+    {"source": 0, "target": 1},
+    {"source": 0, "target": 2},
+    {"source": 0, "target": 3},
+    {"source": 0, "target": 4},
+    {"source": 0, "target": 5}
+]
+}
