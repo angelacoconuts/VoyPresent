@@ -26,12 +26,17 @@ if ('development' == app.get('env')) {
   app.use(express.errorHandler());
 }
 
-app.get('/', routes.index);
-app.get('/angular', routes.angular);
-app.get('/bootstrap', routes.bootstrap);
-app.get('/angular/:phoneId', function(req,res,next){
-    res.send(req.params.phoneId);
-});
+app.get('/', function(req, res){
+  res.render('index');
+}
+);
+//routes.index);
+app.get('/poi/:countryName', function(req, res){
+  console.log(req.params.countryName);
+  res.render('poi', { name: 'Egypt'} );
+}
+);
+//routes.poi);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));

@@ -1,0 +1,29 @@
+.link {
+  fill: none;
+  stroke: #666;
+  stroke-dasharray: 0,2 1;
+  stroke-width: 1.5px;
+  stroke-opacity: 0.3;
+}
+
+circle {
+  stroke: #c1c1c1;
+  stroke-width: 2px;
+  stroke-opacity: 0.5;
+}
+
+text {
+
+  font: 20px Arial, Helvetica, sans-serif;
+  fill:#fff;
+  text-shadow: 0 1px 0 #c1c1c1, 1px 0 0 #c1c1c1, 0 -1px 0 #848484, -1px 0 0 #848484;
+
+}
+
+.smalltext {
+
+  font: 8px Arial, Helvetica, sans-serif;
+  fill: #FAFAFA;
+  text-shadow: none;
+
+}

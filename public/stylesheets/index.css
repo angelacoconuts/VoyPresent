@@ -1,0 +1,21 @@
+.navbar-inner {
+    background-color: white;
+    height: 80px;
+    padding: 20px 10px 10px 10px;
+}
+
+#searchIcon {
+    background-color: white;
+}
+p, li, a, label, input, button, select, textarea{
+    font-family: Georgia, serif;
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#searchBox {
+    width: 100%;
+}
+x

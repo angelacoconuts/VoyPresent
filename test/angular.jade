@@ -1,0 +1,13 @@
+doctype html
+html(ng-app="testApp")
+head
+  script(type="text/javascript",src="/javascripts/vendor/angular/angular.js")
+  script(type="text/javascript",src="/javascripts/controller.js")
+
+body(ng-controller="testController")
+  ul
+    li(ng-repeat="phone in phones")
+      a(href="/angular/{{phone.name}}")
+        | {{phone.name}}
+      p {{phone.snippet}}
+
